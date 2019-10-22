@@ -8,9 +8,28 @@ The concept starts with :-
 1) create a Context, Context.Provider and a Context.Consumer in a class called "store.js".
 2) Now while creating Store using """StoreContext.Provider""" we set the value as the state. So we need methods to get, set and remove the values from the global state.
 3) Next to make our code more easy to use, we are going to create two High Order Component i.e. one for context Provider and the other one for the context Consumer. The Main purpose of the higher order component is to take the one component and return a new component.
-4) So, for using it, we will createStore by wrapping the main App.js using HOC of createStore. And for consuming it, the component that want to use, we will use the consumer HOC to wrap the component to make the global state available for that component.
+4) So, for using it, we will createStore by wrapping the main """App.js""" using HOC of createStore. And for consuming it, the component that want to use, we will use the consumer HOC to wrap the component to make the global state available for that component.
 
-![GitHub Logo](/images/logo.png)
+Application Screenshots -
+
+In this demo application, I wanted to update the employee details using global state.
+
+Employee Details Initially -
+
+![GitHub Logo](/images/1.png)
+
+Once User Click on the Edit - An Editable Grid is Visible
+
+![GitHub Logo](/images/2.png)
+
+Entering the value for updating global state -
+
+![GitHub Logo](/images/3.png)
+
+Once the global state is Updated, the component re-renders itself and displays the updated results.
+
+![GitHub Logo](/images/4.png)
+
 
 ##******************************************##
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
