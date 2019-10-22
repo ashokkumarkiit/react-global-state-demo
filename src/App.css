@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.table-header {
+  background: #1aadf3;
+  padding: 10px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  color: white;
+}
+
+.body-padding {
+  padding: 50px;
+}
+
+td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.table-full-width {
+  width: 100%;
+}
+
+.td-header {
+  background: #e6e6e6;
+}
+
+.padding-20px {
+  padding: 20px;
+}
+
+.btn-container {
+  padding: 10px;
+  text-align: center;
+}
+
+.btn-style {
+  background: #2fa9f1;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 5px;
+}
